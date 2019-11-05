@@ -1,0 +1,10 @@
+[submodule "src/web-app"]
+	path = src/web-app
+	url = https://github.com/mlrd-chain/web-app
+	branch = master
+	ignore = dirty
+[submodule "src/web-srv"]
+	path = src/web-srv
+	url = https://github.com/mlrd-chain/web-srv
+	branch = master
+	ignore = dirty
