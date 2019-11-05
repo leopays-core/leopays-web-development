@@ -1,0 +1,44 @@
+{
+  "name": "web-dev",
+  "version": "0.1.0",
+  "description": "DEVELOPMENT",
+  "private": true,
+  "author": {
+    "name": "MLRD CHAIN",
+    "email": "dev@milliard.money",
+    "url": "https://milliard.money"
+  },
+  "homepage": "https://github.com/mlrd-chain/web-dev#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlrd-chain/web-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mlrd-chain/web-dev/issues",
+    "email": "dev@milliard.money"
+  },
+  "scripts": {
+    "postinstall": "sh ./scripts/postinstall.sh",
+    "start": "yarn run start:ws-wa",
+    "start:ws-wa": "nf --port 3000 --procfile=./Procfile start",
+    "wa:start": "  sh ./scripts/web-app/yarn-start.sh",
+    "wa:run": "    sh ./scripts/web-app/yarn-run.sh",
+    "wa:install": "sh ./scripts/web-app/yarn-install.sh",
+    "wa:add": "    sh ./scripts/web-app/yarn-add.sh",
+    "wa:remove": " sh ./scripts/web-app/yarn-remove.sh",
+    "wa:build": "  sh ./scripts/web-app/yarn-build.sh",
+    "wa:deploy": " sh ./scripts/web-app/deploy.sh",
+    "ws:start": "    sh ./scripts/web-server/yarn-start.sh",
+    "ws:run": "      sh ./scripts/web-server/yarn-run.sh",
+    "ws:install": "  sh ./scripts/web-server/yarn-install.sh",
+    "ws:add": "      sh ./scripts/web-server/yarn-add.sh",
+    "ws:remove": "   sh ./scripts/web-server/yarn-remove.sh",
+    "nf:export": "nf export"
+  },
+  "dependencies": {
+    "foreman": "^3.0.1",
+    "nodemon": "^1.19.4",
+    "parse5": "^5.1.0",
+    "yargs": "^14.2.0"
+  }
+}
