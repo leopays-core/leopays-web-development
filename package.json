@@ -27,6 +27,7 @@
     "wa:add": "    sh ./scripts/web-app/yarn-add.sh",
     "wa:remove": " sh ./scripts/web-app/yarn-remove.sh",
     "wa:build": "  sh ./scripts/web-app/yarn-build.sh",
+    "wa:release": "  sh ./scripts/web-app/yarn-release.sh",
     "wa:deploy": " sh ./scripts/web-app/deploy.sh",
     "ws:start": "    sh ./scripts/web-server/yarn-start.sh",
     "ws:run": "      sh ./scripts/web-server/yarn-run.sh",
