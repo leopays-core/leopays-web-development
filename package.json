@@ -29,11 +29,11 @@
     "wa:build": "  sh ./scripts/web-app/yarn-build.sh",
     "wa:release": "  sh ./scripts/web-app/yarn-release.sh",
     "wa:deploy": " sh ./scripts/web-app/deploy.sh",
-    "ws:start": "    sh ./scripts/web-server/yarn-start.sh",
-    "ws:run": "      sh ./scripts/web-server/yarn-run.sh",
-    "ws:install": "  sh ./scripts/web-server/yarn-install.sh",
-    "ws:add": "      sh ./scripts/web-server/yarn-add.sh",
-    "ws:remove": "   sh ./scripts/web-server/yarn-remove.sh",
+    "ws:start": "    sh ./scripts/web-srv/yarn-start.sh",
+    "ws:run": "      sh ./scripts/web-srv/yarn-run.sh",
+    "ws:install": "  sh ./scripts/web-srv/yarn-install.sh",
+    "ws:add": "      sh ./scripts/web-srv/yarn-add.sh",
+    "ws:remove": "   sh ./scripts/web-srv/yarn-remove.sh",
     "nf:export": "nf export"
   },
   "dependencies": {

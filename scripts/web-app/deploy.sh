@@ -4,7 +4,7 @@ set -eo pipefail
 WADIR=./src/web-app
 WSDIR=./src/web-srv
 IFILE=${WSDIR}/react-app/index.html
-OFILE=${WSDIR}/src/views/layout-for-react-app.hbs
+OFILE=${WSDIR}/views/layout-for-react-app.hbs
 #
 sh ./scripts/web-app/yarn-release.sh && \
 rm -f -R ${WSDIR}/react-app && \
