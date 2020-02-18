@@ -15,7 +15,7 @@
   },
   "bugs": {
     "url": "https://github.com/mlrd-chain/web-dev/issues",
-    "email": "dev@milliard.money"
+    "email": "dev@LeoPays.com"
   },
   "scripts": {
     "postinstall": "sh ./scripts/postinstall.sh",
