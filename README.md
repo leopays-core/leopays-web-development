@@ -6,7 +6,7 @@
   - Nodejs
 
 ```bash
-git clone --recursive https://github.com/mlrd-chain/web-dev
+git clone --recursive https://github.com/leopays-core/web-dev
 cd web-dev
 yarn install
 yarn start
