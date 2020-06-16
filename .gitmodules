@@ -1,6 +1,6 @@
 [submodule "src/web-app"]
 	path = src/web-app
-	url = https://github.com/leopays-core/leopays-web-app
+	url = https://github.com/leopays-core/leopays-app
 	branch = master
 	ignore = dirty
 [submodule "src/web-srv"]
